@@ -90,10 +90,10 @@ public class LargerNumber {
     }
 
     public static void main(String[] args){
-        LargerNumber ln = new LargerNumber(1234); //1243
+       // LargerNumber ln = new LargerNumber(1234); //1243
         //LargerNumber ln = new LargerNumber(12543); //13245
         //LargerNumber ln = new LargerNumber(38276); //38627
-        //LargerNumber ln = new LargerNumber(7865); //
+        LargerNumber ln = new LargerNumber(7865); //8567
         ln.FindLarger();
     }
 }
