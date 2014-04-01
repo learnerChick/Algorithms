@@ -5,11 +5,10 @@ package Sorting;
  *  of the list and then reloop again.
  *
  *  Runs in 0(N^2)
- *
- *  Smallest item are in the beginning of the array, largest items are at the end.  The outer loop starts at the end and
- *  decrements itself each time through the loop and moves left.  The inner loop starts at the beginning and increments
- *  itself.
- *
+ *  1) Start at the end of the array for the outer loop.
+ *  2) Have another loop that starts from beginning to end of outer loop
+ *  3) Now, in the inner loop, take each item and compare it to the item next to it.  If item on left is larger than right, swap.
+ *  4) These swapping motions will move the bigger item to the right one by one..
  *
  */
 
