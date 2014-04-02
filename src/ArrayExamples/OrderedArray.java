@@ -1,4 +1,4 @@
-package Arrays;
+package ArrayExamples;
 /* Benefit: Good for when searches are frequent, but insertions and deletes aren't */
 
 public class OrderedArray {

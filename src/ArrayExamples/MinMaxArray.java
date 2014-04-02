@@ -1,4 +1,4 @@
-package Arrays;
+package ArrayExamples;
 
 /**
  * Write a function to find the min and max in an array with minimum comparisons.
